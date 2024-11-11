@@ -1,0 +1,40 @@
+@startuml
+
+|#pink|Usuário|
+start
+
+:Acessar o Aplicativo;
+
+repeat 
+:Realizar Login;
+
+|#lightblue|Sistema Banco Itatiaia|
+
+:Autenticar;
+:Autorizar;
+
+repeat while (autorizado?) is (não) not (sim)
+:Liberar o acesso à tela principal do aplicativo;
+
+|Usuário|
+
+:Selecionar opção de Investimentos;
+
+|Sistema Banco Itatiaia|
+
+:Exibir opções de investimento;
+
+|Usuário|
+
+:Escolher tipo de investimento;
+:Inserir valor a ser investido;
+:Confirmar investimento;
+
+|Sistema Banco Itatiaia|
+
+:Verificar saldo disponível;
+:Realizar transação de investimento;
+:Gerar comprovante de investimento;
+
+stop
+@enduml

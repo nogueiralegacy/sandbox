@@ -1,0 +1,33 @@
+@startuml
+
+|#pink|Usuário|
+start
+
+:Acessar o Aplicativo;
+
+repeat 
+:Realizar Login;
+
+|#lightblue|Sistema Banco Itatiaia|
+
+:Autenticar;
+:Autorizar;
+
+repeat while (autorizado?) is (não) not (sim)
+:Liberar o acesso à tela principal do aplicativo;
+
+|Usuário|
+
+:Selecionar opção de Investimentos;
+
+|Sistema Banco Itatiaia|
+
+:Recuperar informações dos investimentos;
+:Exibir informações dos investimentos;
+
+|Usuário|
+
+:Analisar informações dos investimentos;
+
+stop
+@enduml

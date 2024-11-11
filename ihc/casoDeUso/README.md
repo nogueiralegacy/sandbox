@@ -57,3 +57,23 @@ O sistema do Banco Itatiaia recupera as informações do cartão e exibe na tela
 
 ![consultarDadosCartao](image/consultarDadosCartao.png)
 
+
+## Investir dinheiro
+Dona Vilma deseja realizar um investimento utilizando o saldo disponível em sua conta bancária.
+
+Para isso, ela [acessa o sistema bancário](#acessar-sistema-bancário). Na tela principal do aplicativo, Dona Vilma seleciona a opção de “Investimentos” e navega até a funcionalidade de realizar um novo investimento.
+
+O sistema do Banco Itatiaia exibe as opções de investimento disponíveis, como CDB, fundos de investimento e poupança. Dona Vilma escolhe o tipo de investimento, insere o valor a ser investido e confirma sua escolha.
+
+O sistema realiza verificações de segurança e valida o saldo em conta. Após essas confirmações, o sistema finaliza a transação de investimento e gera um comprovante de investimento para Dona Vilma.
+
+![investirDinheiro](image/investirDinheiro.png)
+
+## Consultar investimentos
+Dona Vilma deseja consultar os detalhes de seus investimentos atuais, incluindo saldo, rendimento e informações sobre cada aplicação.
+
+Para isso, ela [acessa o sistema bancário](#acessar-sistema-bancário). Na tela principal do aplicativo, Dona Vilma seleciona a opção de “Investimentos” e escolhe a funcionalidade de consulta de investimentos.
+
+O sistema do Banco Itatiaia recupera e exibe os dados dos investimentos de Dona Vilma, incluindo o saldo total investido, o rendimento acumulado e os detalhes de cada aplicação. Dona Vilma analisa as informações e fecha o aplicativo ao concluir a consulta.
+
+![consultarInvestimentos](image/consultarInvestimentos.png)
