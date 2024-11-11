@@ -1,0 +1,34 @@
+@startuml
+left to right direction
+
+actor "Cliente do Banco" as cb
+actor "Sistema Bancário" as sb
+
+rectangle "Banco Itatiaia" {
+
+  usecase "Acessar sistema bancário" as UC1
+  usecase "Realizar transferência de dinheiro - Pix" as UC2
+  usecase "Consultar saldo" as UC3
+  usecase "Pagar contas" as UC4
+  usecase "Consultar extrato bancário" as UC5
+  usecase "Consultar fatura do cartão de crédito" as UC6
+  usecase "Consultar dados do cartão" as UC7
+  usecase "Investir dinheiro" as UC8
+  usecase "Consultar investimentos" as UC9
+
+  UC2 -up-> UC1 : extends
+  UC3 -up-> UC1 : extends
+  UC4 -up-> UC1 : extends
+  UC5 -up-> UC1 : extends
+  UC6 -up-> UC1 : extends
+  UC7 -up-> UC1 : extends
+  UC8 -up-> UC1 : extends
+  UC9 -up-> UC1 : extends
+
+}
+
+cb --> UC1
+
+sb --> UC1 
+
+@enduml

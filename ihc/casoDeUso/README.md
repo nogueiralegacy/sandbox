@@ -1,5 +1,7 @@
 # Caso de Uso
 
+![useCase](image/useCase.png)
+
 ## Acessar sistema bancário
 Dona Vilma deseja acessar seu aplicativo bancário.
 
