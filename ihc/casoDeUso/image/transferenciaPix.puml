@@ -1,0 +1,43 @@
+@startuml
+
+|#pink|Usuário|
+start
+
+:Acessar o Aplicativo;
+
+repeat 
+:Realizar Login;
+
+|#lightblue|Sistema Banco Itatiaia|
+
+:Autenticar;
+:Autorizar;
+
+repeat while (autotizado?) is (não) not (sim)
+:Apresentar/Liberar tela principal do aplicativo;
+
+|Usuário|
+
+:Selecionar transferência via Pix;
+:Preencher dados pertientes a transferência;
+
+|Sistema Banco Itatiaia|
+
+:Verificações de segurança;
+:Verificações de regras de negócio;
+
+:Apresentar resumo da transação;
+
+|Usuário|
+
+:Confirmar transação;
+
+if (transação confirmada?) then (não)
+end
+else (sim)
+|Sistema Banco Itatiaia|
+:Concluir transação;
+:Gerar comprovante de pagamento;
+
+stop
+@enduml

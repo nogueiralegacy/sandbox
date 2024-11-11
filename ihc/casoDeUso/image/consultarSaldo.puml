@@ -1,0 +1,23 @@
+@startuml
+
+|#pink|Usuário|
+start
+
+:Acessar o Aplicativo;
+
+repeat 
+:Realizar Login;
+
+|#lightblue|Sistema Banco Itatiaia|
+
+:Autenticar;
+:Autorizar;
+
+repeat while (autotizado?) is (não) not (sim)
+:Apresentar/Liberar tela principal do aplicativo;
+
+|Usuário|
+:Visualizar saldo;
+
+stop
+@enduml
