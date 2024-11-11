@@ -16,14 +16,14 @@ rectangle "Banco Itatiaia" {
   usecase "Investir dinheiro" as UC8
   usecase "Consultar investimentos" as UC9
 
-  UC2 -up-> UC1 : extends
-  UC3 -up-> UC1 : extends
-  UC4 -up-> UC1 : extends
-  UC5 -up-> UC1 : extends
-  UC6 -up-> UC1 : extends
-  UC7 -up-> UC1 : extends
-  UC8 -up-> UC1 : extends
-  UC9 -up-> UC1 : extends
+  UC2 -up-> UC1 : <<include>>
+  UC3 -up-> UC1 : <<include>>
+  UC4 -up-> UC1 : <<include>>
+  UC5 -up-> UC1 : <<include>>
+  UC6 -up-> UC1 : <<include>>
+  UC7 -up-> UC1 : <<include>>
+  UC8 -up-> UC1 : <<include>>
+  UC9 -up-> UC1 : <<include>>
 
 }
 
