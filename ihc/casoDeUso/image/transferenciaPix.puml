@@ -14,7 +14,7 @@ repeat
 :Autorizar;
 
 repeat while (autotizado?) is (não) not (sim)
-:Apresentar/Liberar tela principal do aplicativo;
+:Liberar o acesso à tela principal do aplicativo;
 
 |Usuário|
 

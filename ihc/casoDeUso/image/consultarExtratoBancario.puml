@@ -17,7 +17,20 @@ repeat while (autotizado?) is (não) not (sim)
 :Liberar o acesso à tela principal do aplicativo;
 
 |Usuário|
-:Visualizar saldo;
+
+:Selecionar extrato bancário;
+
+|Sistema Banco Itatiaia|
+
+:Recuperar extrato bancário;
+:Exibir extrato bancário;
+
+|Usuário|
+
+:Solicitar comprovante de uma movimentação;
+
+|Sistema Banco Itatiaia|
+:Gerar comprovante de pagamento;
 
 stop
 @enduml

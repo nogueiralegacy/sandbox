@@ -13,11 +13,21 @@ repeat
 :Autenticar;
 :Autorizar;
 
-repeat while (autotizado?) is (não) not (sim)
+repeat while (autorizado?) is (não) not (sim)
 :Liberar o acesso à tela principal do aplicativo;
 
 |Usuário|
-:Visualizar saldo;
+
+:Selecionar dados do cartão;
+
+|Sistema Banco Itatiaia|
+
+:Recuperar informações do cartão;
+:Exibir dados do cartão;
+
+|Usuário|
+
+:Visualizar dados do cartão;
 
 stop
 @enduml

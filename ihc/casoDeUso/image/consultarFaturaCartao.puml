@@ -1,0 +1,41 @@
+@startuml
+
+|#pink|Usuário|
+start
+
+:Acessar o Aplicativo;
+
+repeat 
+:Realizar Login;
+
+|#lightblue|Sistema Banco Itatiaia|
+
+:Autenticar;
+:Autorizar;
+
+repeat while (autorizado?) is (não) not (sim)
+:Liberar o acesso à tela principal do aplicativo;
+
+|Usuário|
+
+:Selecionar fatura do cartão de crédito;
+
+|Sistema Banco Itatiaia|
+
+:Recuperar fatura do cartão de crédito;
+:Exibir fatura do cartão de crédito;
+
+|Usuário|
+
+:Solicitar resumo da fatura;
+
+|Sistema Banco Itatiaia|
+
+:Gerar resumo da fatura em PDF;
+
+|Usuário|
+
+:Enviar PDF da fatura para o filho;
+
+stop
+@enduml
