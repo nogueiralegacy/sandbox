@@ -20,3 +20,6 @@ de **6.371 km**, [valor do raio médio da Terra divulgado pela NASA](https://nss
 A fórmula de Haversine é usada para calcular a menor distância entre 
 dois pontos na superfície de uma esfera perfeita, baseada em duas 
 latitudes e longitudes. 
+
+## Plano de Teste
+Uma [implementação do plano de testes](https://github.com/nogueiralegacy/sandbox/blob/main/distancia/src/test/java/com/github/nogueiralegacy/distancia/CalculadoraTest.java) foi elaborada.
